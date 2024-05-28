@@ -1,0 +1,9 @@
+@media (max-width: 640px) { 
+    .about-container h4{
+        margin-top: 50px;
+    }
+    .about-content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

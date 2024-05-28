@@ -1,0 +1,17 @@
+.background{
+    background-image: url('../../../public//Transparent-background-with-dots.png');
+    background-color: rgb(51, 49, 49);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back-container{
+    box-shadow: 0 0 20px 5px rgb(100, 98, 98);
+}
+
+@media (max-width: 640px) { 
+    .service-container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

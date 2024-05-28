@@ -1,0 +1,31 @@
+.background{
+    background-image: url('../../../public//Transparent-background-with-dots.png');
+    background-color: rgb(51, 49, 49);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 1280px) { 
+    .number-container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 40px;
+    }
+ }
+@media (max-width: 640px) { 
+    .number3-container{
+        /* margin-top: 10px; */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .number3-container h4{ 
+        padding-top: 60px;
+    }
+    .count-up{
+        font-size: 50px;
+    }
+    .bottom-border{
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+    }
+ }

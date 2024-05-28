@@ -1,0 +1,13 @@
+@media (max-width: 640px) { 
+    .swiper-container h3{
+        font-size: 30px;
+    }
+    .swiper-container p{
+        font-size: 15px;
+    }
+    .swiper-container {
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-top: 10px;
+    }
+}

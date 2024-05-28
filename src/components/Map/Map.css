@@ -1,0 +1,12 @@
+@media (max-width: 640px) { 
+   .caontact-contaienre{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center ;
+   }
+   .caontact{
+      display: flex;
+      justify-content: center ;
+      margin-top: 20px;
+   }
+}

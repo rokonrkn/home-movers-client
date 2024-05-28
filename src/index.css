@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+#root{
+  background-image: url('../public/movers_parallax.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 660px;
+}
